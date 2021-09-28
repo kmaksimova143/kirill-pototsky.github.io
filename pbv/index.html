@@ -17,7 +17,7 @@
 			<div class="container">
 				<div class="grid grid--sb">
 					<div class="grid__col grid__col--xl-4 grid__col--lg-6 grid__col--md-8 grid__col--flex">
-						<a class="logo" href="/">
+						<a class="logo" href="index.html">
 							<span class="logo__label">PBV</span>
 						</a>
 						<ul class="nav">
@@ -258,7 +258,7 @@
 					</div>
 				</div>
 			</section>
-			<div class="support">
+			<section class="support">
 				<div class="container">
 					<div class="support-card">
 						<h2 class="title support-card__title">
@@ -278,7 +278,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</main>
 		<div class="footer">
 			<div class="container">
@@ -296,13 +296,13 @@
 					<div class="grid__col grid__col--xl-6 grid__col--md-12 grid__col--grow">
 						<ul class="links">
 							<li class="links__item">
-								<a class="links__link" href="#!">Политика конфиденциальности</a>
+								<a class="links__link" href="policy.html">Политика конфиденциальности</a>
 							</li>
 							<li class="links__item">
-								<a class="links__link" href="#!">Условия и положения</a>
+								<a class="links__link" href="article.html">Условия и положения</a>
 							</li>
 							<li class="links__item">
-								<a class="links__link" href="#!">Cookies</a>
+								<a class="links__link" href="cookies.html">Cookies</a>
 							</li>
 						</ul>
 					</div>
@@ -325,10 +325,13 @@
 		</div>
 		<div class="modal-form">
 			<div class="modal-form__close"></div>
+			<div class="modal-form__msg">
+				<div class="modal-form__label">Наш менеджер скоро свяжется с Вами!</div>
+			</div>
 			<form>
 				<input type="text" placeholder="Ваше имя">
-				<input type="text" placeholder="Ваша почта">
-				<input class="button button--light" type="text" value="Отправить">
+				<input type="email" placeholder="Ваша почта" required="required">
+				<input class="button button--light" type="submit" value="Отправить">
 			</form>
 		</div>
 
