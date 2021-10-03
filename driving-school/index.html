@@ -13,7 +13,7 @@
 		<link href="assets/styles/app.min.css" rel="stylesheet">
 	</head>
 	<body>
-		<div class="header">
+		<header class="header">
 			<div class="container container--sm container container--flex">
 				<div class="navigation">
 					<button class="navigation__burger burger">
@@ -46,7 +46,7 @@
 					<span class="button__label">Личный кабинет</span>
 				</button>
 			</div>
-		</div>
+		</header>
 		<main class="index" role="main">
 			<section class="intro">
 				<div class="container container--relative">
@@ -176,6 +176,996 @@
 					<div class="swiper-button-next slider-btn"></div>
 				</div>
 			</section>
+			<section class="calculator">
+				<div class="container">
+					<form class="calculator__form calculator-form">
+						<div class="calculator-form__field calculator-form-field calculator-form-field--select">
+							<ul class="calculator-form-field__dropdown calculator-form-dropdown">
+								<li class="calculator-form-dropdown__item">
+									<span class="calculator-form-dropdown__label">мотоцикл</span>
+								</li>
+								<li class="calculator-form-dropdown__item">
+									<span class="calculator-form-dropdown__label">легковое авто</span>
+								</li>
+								<li class="calculator-form-dropdown__item">
+									<span class="calculator-form-dropdown__label">переобучение с B на C</span>
+								</li>
+							</ul>
+							<div class="calculator-form-field__title">
+								<span class="calculator-form-field__label">Транспорт</span>
+							</div>
+							<label class="calculator-form-field__input calculator-form-field__select">
+								<input class="calculator-form-field__value" type="hidden" value="Легковое авто">
+								<span class="calculator-form-field__label">Легковое авто</span><img class="calculator-form-field__arrow" src="assets/images/arrow.svg" alt="arrow">
+							</label>
+						</div>
+						<div class="calculator-form__field calculator-form-field calculator-form-field--select">
+							<ul class="calculator-form-field__dropdown calculator-form-dropdown">
+								<li class="calculator-form-dropdown__item">
+									<span class="calculator-form-dropdown__label">мотоцикл</span>
+								</li>
+								<li class="calculator-form-dropdown__item">
+									<span class="calculator-form-dropdown__label">легковое авто</span>
+								</li>
+								<li class="calculator-form-dropdown__item">
+									<span class="calculator-form-dropdown__label">переобучение с B на C</span>
+								</li>
+							</ul>
+							<div class="calculator-form-field__title">
+								<span class="calculator-form-field__label">Каробка передач</span>
+							</div>
+							<label class="calculator-form-field__input calculator-form-field__select">
+								<input class="calculator-form-field__value" type="hidden" value="Механическая">
+								<span class="calculator-form-field__label">Механическая</span><img class="calculator-form-field__arrow" src="assets/images/arrow.svg" alt="arrow">
+							</label>
+						</div>
+						<div class="calculator-form__field calculator-form-field calculator-form-field--count">
+							<div class="calculator-form-field__title">
+								<span class="calculator-form-field__label">Практика</span>
+							</div>
+							<label class="calculator-form-field__input calculator-form-field__count">
+								<input class="calculator-form-field__value" type="hidden" value="занятий">
+								<span class="calculator-form-field__label calculator-form-field__label--num">28</span>
+								<span class="calculator-form-field__label">занятий</span>
+							</label>
+						</div>
+						<div class="calculator-form__field calculator-form-field calculator-form-field--count">
+							<div class="calculator-form-field__title">
+								<span class="calculator-form-field__label">Теория</span>
+							</div>
+							<label class="calculator-form-field__input calculator-form-field__count">
+								<input class="calculator-form-field__value" type="hidden" value="месяца">
+								<span class="calculator-form-field__label calculator-form-field__label--num">3</span>
+								<span class="calculator-form-field__label">месяца</span>
+							</label>
+						</div>
+						<div class="calculator-form__field calculator-form-field calculator-form-field--count">
+							<div class="calculator-form-field__title">
+								<span class="calculator-form-field__label">Стоимость</span>
+							</div>
+							<label class="calculator-form-field__input calculator-form-field__count">
+								<input class="calculator-form-field__value" type="hidden" value="тыс. руб.">
+								<span class="calculator-form-field__label calculator-form-field__label--num">30</span>
+								<span class="calculator-form-field__label">тыс. руб.</span>
+							</label>
+						</div>
+						<div class="calculator-form__field calculator-form-field calculator-form-field--btn">
+							<input class="calculator-form-field__label" type="submit" value="Записаться">
+						</div>
+					</form>
+					<div class="calculator__descr">* организация экзамена в ГИБДД и свидетельство об окончании.</div>
+				</div>
+			</section>
+			<section class="info">
+				<div class="container">
+					<ul class="tabs">
+						<li class="tabs__tab is-active" data-tab-target="0-info">
+							<span class="tabs__label"> Теоретические занятия</span>
+						</li>
+						<li class="tabs__tab" data-tab-target="1-info">
+							<span class="tabs__label"> Практические занятия</span>
+						</li>
+						<li class="tabs__tab" data-tab-target="2-info">
+							<span class="tabs__label"> Организация экзамена в ГИБДД</span>
+						</li>
+						<li class="tabs__tab" data-tab-target="3-info">
+							<span class="tabs__label"> Сотрудничество</span>
+						</li>
+					</ul>
+					<div class="tabs-content">
+						<div class="tabs-content__wrapper is-active" data-tab="0-info" data-tab-group="info">
+							<div class="tabs-content__bg">
+								<div class="tabs-content__picture"><img class="tabs-content__image" src="assets/images/info-bg.jpg" alt="info-bg"></div>
+							</div>
+							<div class="info-card">
+								<div class="info-card__item info-card__item--practical">
+									<ul class="info-card__practical info-card-list info-card-list--practical">
+										<li class="info-card-list__item">
+											<h3 class="info-card-list__title">
+												<span class="info-card-list__label">Практика</span>
+											</h3>
+											<p class="info-card-list__text">
+												<span class="info-card-list__num">25</span> занятий
+											</p>
+										</li>
+										<li class="info-card-list__item">
+											<p class="info-card-list__text">по <span class="info-card-list__num">2</span> часа</p>
+										</li>
+									</ul>
+								</div>
+								<div class="info-card__item info-card__item--descr">
+									<ul class="info-card__descr info-card-list info-card-list--descr">
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">тренировка и практическое выполнение упражнений на автодроме </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">учебная езда по городу </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">действия водителя в нестандартных ситуациях </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">изучение особенностей экзаменационного маршрута</span>
+										</li>
+									</ul>
+								</div>
+								<div class="info-card__item info-card__item--clock">
+									<ul class="info-card__clock info-card-list info-card-list--clock">
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">Практические занятия проводятся индивидуально с каждым в любой день по записи </span>
+										</li>
+										<li class="info-card-list__item info-card-list__item--bottom">
+											<p class="info-card-list__text">C <span class="info-card-list__num">10:00 </span> ДО <span class="info-card-list__num">18:00</span>
+											</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="tabs-content__wrapper" data-tab="1-info" data-tab-group="info">
+							<div class="tabs-content__bg">
+								<div class="tabs-content__picture"><img class="tabs-content__image" src="assets/images/info-bg.jpg" alt="info-bg"></div>
+							</div>
+							<div class="info-card">
+								<div class="info-card__item info-card__item--practical">
+									<ul class="info-card__practical info-card-list info-card-list--practical">
+										<li class="info-card-list__item">
+											<h3 class="info-card-list__title">
+												<span class="info-card-list__label">Практика</span>
+											</h3>
+											<p class="info-card-list__text">
+												<span class="info-card-list__num">25</span> занятий
+											</p>
+										</li>
+										<li class="info-card-list__item">
+											<p class="info-card-list__text">по <span class="info-card-list__num">2</span> часа</p>
+										</li>
+									</ul>
+								</div>
+								<div class="info-card__item info-card__item--descr">
+									<ul class="info-card__descr info-card-list info-card-list--descr">
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">тренировка и практическое выполнение упражнений на автодроме </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">учебная езда по городу </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">действия водителя в нестандартных ситуациях </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">изучение особенностей экзаменационного маршрута</span>
+										</li>
+									</ul>
+								</div>
+								<div class="info-card__item info-card__item--clock">
+									<ul class="info-card__clock info-card-list info-card-list--clock">
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">Практические занятия проводятся индивидуально с каждым в любой день по записи </span>
+										</li>
+										<li class="info-card-list__item info-card-list__item--bottom">
+											<p class="info-card-list__text">C <span class="info-card-list__num">10:00 </span> ДО <span class="info-card-list__num">18:00</span>
+											</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="tabs-content__wrapper" data-tab="2-info" data-tab-group="info">
+							<div class="tabs-content__bg">
+								<div class="tabs-content__picture"><img class="tabs-content__image" src="assets/images/info-bg.jpg" alt="info-bg"></div>
+							</div>
+							<div class="info-card">
+								<div class="info-card__item info-card__item--practical">
+									<ul class="info-card__practical info-card-list info-card-list--practical">
+										<li class="info-card-list__item">
+											<h3 class="info-card-list__title">
+												<span class="info-card-list__label">Практика</span>
+											</h3>
+											<p class="info-card-list__text">
+												<span class="info-card-list__num">25</span> занятий
+											</p>
+										</li>
+										<li class="info-card-list__item">
+											<p class="info-card-list__text">по <span class="info-card-list__num">2</span> часа</p>
+										</li>
+									</ul>
+								</div>
+								<div class="info-card__item info-card__item--descr">
+									<ul class="info-card__descr info-card-list info-card-list--descr">
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">тренировка и практическое выполнение упражнений на автодроме </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">учебная езда по городу </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">действия водителя в нестандартных ситуациях </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">изучение особенностей экзаменационного маршрута</span>
+										</li>
+									</ul>
+								</div>
+								<div class="info-card__item info-card__item--clock">
+									<ul class="info-card__clock info-card-list info-card-list--clock">
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">Практические занятия проводятся индивидуально с каждым в любой день по записи </span>
+										</li>
+										<li class="info-card-list__item info-card-list__item--bottom">
+											<p class="info-card-list__text">C <span class="info-card-list__num">10:00 </span> ДО <span class="info-card-list__num">18:00</span>
+											</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="tabs-content__wrapper" data-tab="3-info" data-tab-group="info">
+							<div class="tabs-content__bg">
+								<div class="tabs-content__picture"><img class="tabs-content__image" src="assets/images/info-bg.jpg" alt="info-bg"></div>
+							</div>
+							<div class="info-card">
+								<div class="info-card__item info-card__item--practical">
+									<ul class="info-card__practical info-card-list info-card-list--practical">
+										<li class="info-card-list__item">
+											<h3 class="info-card-list__title">
+												<span class="info-card-list__label">Практика</span>
+											</h3>
+											<p class="info-card-list__text">
+												<span class="info-card-list__num">25</span> занятий
+											</p>
+										</li>
+										<li class="info-card-list__item">
+											<p class="info-card-list__text">по <span class="info-card-list__num">2</span> часа</p>
+										</li>
+									</ul>
+								</div>
+								<div class="info-card__item info-card__item--descr">
+									<ul class="info-card__descr info-card-list info-card-list--descr">
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">тренировка и практическое выполнение упражнений на автодроме </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">учебная езда по городу </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">действия водителя в нестандартных ситуациях </span>
+										</li>
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">изучение особенностей экзаменационного маршрута</span>
+										</li>
+									</ul>
+								</div>
+								<div class="info-card__item info-card__item--clock">
+									<ul class="info-card__clock info-card-list info-card-list--clock">
+										<li class="info-card-list__item">
+											<span class="info-card-list__label">Практические занятия проводятся индивидуально с каждым в любой день по записи </span>
+										</li>
+										<li class="info-card-list__item info-card-list__item--bottom">
+											<p class="info-card-list__text">C <span class="info-card-list__num">10:00 </span> ДО <span class="info-card-list__num">18:00</span>
+											</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="group">
+				<div class="container">
+					<h2 class="title">
+						<span class="title__label">Идет набор в учебные группы автошколы</span>
+					</h2>
+					<ul class="tabs">
+						<li class="tabs__tab is-active" data-tab-target="0-group">
+							<span class="tabs__label"> Категория A</span>
+						</li>
+						<li class="tabs__tab" data-tab-target="1-group">
+							<span class="tabs__label"> Категория B</span>
+						</li>
+						<li class="tabs__tab" data-tab-target="2-group">
+							<span class="tabs__label"> Категория C</span>
+						</li>
+						<li class="tabs__tab" data-tab-target="3-group">
+							<span class="tabs__label"> Категория D</span>
+						</li>
+					</ul>
+					<div class="tabs-content">
+						<div class="tabs-content__wrapper is-active" data-tab="0-group" data-tab-group="group">
+							<div class="tabs-content__bg">
+								<div class="tabs-content__picture"><img class="tabs-content__image" src="assets/images/group-bg.jpg" alt="group-bg"></div>
+							</div>
+							<div class="group-card">
+								<h3 class="group-card__title">Категория A</h3>
+								<div class="group-card__table group-card-table">
+									<div class="group-card-table__row group-card-table__row--header">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Теоретические занятия </span>
+											<span class="group-card-table__descr">в классе</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Группа выходного дня</span>
+											<span class="group-card-table__descr">начало занятий</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Группа рабочего дня</span>
+											<span class="group-card-table__descr">начало занятий</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tabs-content__wrapper" data-tab="1-group" data-tab-group="group">
+							<div class="tabs-content__bg">
+								<div class="tabs-content__picture"><img class="tabs-content__image" src="assets/images/group-bg.jpg" alt="group-bg"></div>
+							</div>
+							<div class="group-card">
+								<h3 class="group-card__title">Категория B</h3>
+								<div class="group-card__table group-card-table">
+									<div class="group-card-table__row group-card-table__row--header">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Теоретические занятия </span>
+											<span class="group-card-table__descr">в классе</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Группа выходного дня</span>
+											<span class="group-card-table__descr">начало занятий</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Группа рабочего дня</span>
+											<span class="group-card-table__descr">начало занятий</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tabs-content__wrapper" data-tab="2-group" data-tab-group="group">
+							<div class="tabs-content__bg">
+								<div class="tabs-content__picture"><img class="tabs-content__image" src="assets/images/group-bg.jpg" alt="group-bg"></div>
+							</div>
+							<div class="group-card">
+								<h3 class="group-card__title">Категория C</h3>
+								<div class="group-card__table group-card-table">
+									<div class="group-card-table__row group-card-table__row--header">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Теоретические занятия </span>
+											<span class="group-card-table__descr">в классе</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Группа выходного дня</span>
+											<span class="group-card-table__descr">начало занятий</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Группа рабочего дня</span>
+											<span class="group-card-table__descr">начало занятий</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tabs-content__wrapper" data-tab="3-group" data-tab-group="group">
+							<div class="tabs-content__bg">
+								<div class="tabs-content__picture"><img class="tabs-content__image" src="assets/images/group-bg.jpg" alt="group-bg"></div>
+							</div>
+							<div class="group-card">
+								<h3 class="group-card__title">Категория D</h3>
+								<div class="group-card__table group-card-table">
+									<div class="group-card-table__row group-card-table__row--header">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Теоретические занятия </span>
+											<span class="group-card-table__descr">в классе</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Группа выходного дня</span>
+											<span class="group-card-table__descr">начало занятий</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">Группа рабочего дня</span>
+											<span class="group-card-table__descr">начало занятий</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+									<div class="group-card-table__row">
+										<div class="group-card-table__cell">
+											<span class="group-card-table__title">г. Наро-Фоминск </span>
+											<span class="group-card-table__descr">ул. Московская д. 9к</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">25 января 2020</span>
+										</div>
+										<div class="group-card-table__cell">
+											<span class="group-card-table__date">10 февраля 2020</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="contacts">
+				<div class="container">
+					<h2 class="title">
+						<span class="title__label">Контакты</span>
+					</h2>
+					<div class="grid">
+						<div class="grid__col grid__col--xl-9 grid__col--lg-12">
+							<div class="contacts__card contacts-card">
+								<div class="contacts-card__address">
+									<ul class="tabs">
+										<li class="tabs__tab is-active" data-tab-target="0-contacts">
+											<span class="tabs__label"> Наро-Фоминск</span>
+										</li>
+										<li class="tabs__tab" data-tab-target="1-contacts">
+											<span class="tabs__label"> Селятино</span>
+										</li>
+										<li class="tabs__tab" data-tab-target="2-contacts">
+											<span class="tabs__label"> Апрелевка</span>
+										</li>
+										<li class="tabs__tab" data-tab-target="3-contacts">
+											<span class="tabs__label"> Вирея</span>
+										</li>
+									</ul>
+									<div class="tabs-content">
+										<div class="tabs-content__wrapper is-active" data-tab="0-contacts" data-tab-group="contacts">
+											<ul class="contacts-card__list contacts-card-list">
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+											</ul>
+										</div>
+										<div class="tabs-content__wrapper" data-tab="1-contacts" data-tab-group="contacts">
+											<ul class="contacts-card__list contacts-card-list">
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+											</ul>
+										</div>
+										<div class="tabs-content__wrapper" data-tab="2-contacts" data-tab-group="contacts">
+											<ul class="contacts-card__list contacts-card-list">
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+											</ul>
+										</div>
+										<div class="tabs-content__wrapper" data-tab="3-contacts" data-tab-group="contacts">
+											<ul class="contacts-card__list contacts-card-list">
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+												<li class="contacts-card-list__item">
+													<span class="contacts-card-list__header">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
+															<span class="contacts-card-list__label">ул. Московская 9К</span>
+														</span>
+														<span class="contacts-card-list__mark contacts-card-list__mark--main">
+															<span class="contacts-card-list__label">Главный офис</span>
+														</span>
+													</span>
+													<span class="contacts-card-list__footer">
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_time"></use></svg>
+															<span class="contacts-card-list__label">Время работы: с 9:00 до 18:00</span>
+														</span>
+														<span class="contacts-card-list__info">
+															<svg class="contacts-card-list__icon"><use xlink:href="assets/images/sprite.svg#icon_phone"></use></svg>
+															<a class="contacts-card-list__label" href="tel:+79265341622">Телефон: +7 (926) 534 16 22</a>
+														</span>
+													</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<a class="contacts-card__email" href="mailto:info@mik2000.ru">
+										<span class="contacts-card__label">Email:</span>
+										<span class="contacts-card__label contacts-card__label--brend">info@mik2000.ru </span>
+									</a>
+								</div>
+								<div class="contacts-card__map">
+									<iframe class="contacts-card__iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A2b197339cfc89dd20801261a00adb114059f19a2237b249757760ebaeb30809d&amp;amp;source=constructor"></iframe>
+								</div>
+							</div>
+						</div>
+						<div class="grid__col grid__col--xl-3 grid__col--lg-12">
+							<form class="contacts__form contacts-form">
+								<h4 class="contacts-form__title">
+									<span class="contacts-form__label">Запишитесь онлайн или задайте вопрос</span>
+								</h4>
+								<div class="contacts-form__item">
+									<input class="contacts-form__input" type="text">
+									<label class="contacts-form__placeholder">Ваше имя</label>
+								</div>
+								<div class="contacts-form__item">
+									<input class="contacts-form__input" type="text">
+									<label class="contacts-form__placeholder">E-mail</label>
+								</div>
+								<div class="contacts-form__item">
+									<input class="contacts-form__input" type="text">
+									<label class="contacts-form__placeholder">Телефон</label>
+								</div>
+								<div class="contacts-form__item">
+									<input class="contacts-form__input" type="text">
+									<label class="contacts-form__placeholder">Сообщение</label>
+								</div>
+								<span class="contacts-form__descr">
+									<span class="contacts-form__label">* Мы ценим вашу конфиденциальность и никогда не передадим вашу информацию кому-либо.</span>
+								</span>
+								<button class="button contacts-form__btn">
+									<span class="button__label">Отправить </span>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
 
 		<script src="assets/scripts/app.min.js" charset="utf-8"></script>
