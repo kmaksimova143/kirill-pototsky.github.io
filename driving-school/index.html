@@ -23,38 +23,38 @@
 					</button>
 					<ul class="navigation__list navigation-list">
 						<li class="navigation-list__item">
-							<a class="navigation-list__link" href="#!">О школе</a>
+							<a class="navigation-list__link" href="about.html">О школе</a>
 						</li>
 						<li class="navigation-list__item">
-							<a class="navigation-list__link" href="#!">Услуги</a>
+							<a class="navigation-list__link" href="#info">Услуги</a>
 						</li>
 						<li class="navigation-list__item">
-							<a class="navigation-list__link" href="#!">Пдд онлайн</a>
+							<a class="navigation-list__link" href="#group">Набор в группы</a>
 						</li>
 						<li class="navigation-list__item">
-							<a class="navigation-list__link" href="#!">Фото</a>
+							<a class="navigation-list__link" href="pdd-online.html">Пдд онлайн</a>
 						</li>
 						<li class="navigation-list__item">
-							<a class="navigation-list__link" href="#!">Документы</a>
+							<a class="navigation-list__link" href="gallery.html">Фото</a>
 						</li>
 						<li class="navigation-list__item">
-							<a class="navigation-list__link" href="#!">Контакты</a>
+							<a class="navigation-list__link" href="#contacts">Контакты</a>
 						</li>
 					</ul>
 				</div>
-				<button class="button">
+				<a class="button" href="https://avto-online.pro/kabinet/" target="_blank">
 					<span class="button__label">Личный кабинет</span>
-				</button>
+				</a>
 			</div>
 		</header>
 		<main class="index" role="main">
 			<section class="intro">
+				<div class="intro__video video">
+					<video class="video__item" loop autoplay muted playsinline poster="poster.jpg">
+						<source src="assets/video-bg/video.mp4" type="video/mp4">
+					</video>
+				</div>
 				<div class="container container--relative">
-					<div class="intro__video video">
-						<video class="video__item" loop autoplay muted playsinline poster="poster.jpg">
-							<source src="assets/video-bg/video.mp4" type="video/mp4">
-						</video>
-					</div>
 					<div class="intro__content">
 						<div class="intro__header">
 							<div class="grid">
@@ -75,17 +75,20 @@
 						</div>
 						<div class="intro__promo">
 							<div class="grid">
-								<div class="grid__col grid__col--xl-6">
+								<div class="grid__col grid__col--xl-7">
 									<h1 class="intro__title intro-title">
 										<span class="intro-title__num">1</span>
 										<span class="intro-title__descr">
 											<span class="intro-title__thin">- e</span>
 											<span class="intro-title__main">МЕСТО В РЕЙТИНГЕ ГИБДД</span>
-											<span class="intro-title__subtitle">ПО ЧИСЛУ СДАВШИХ НА ПРАВА</span>
+											<span class="intro-title__subtitle">по числу сдавших на права</span>
 										</span>
 									</h1>
+									<h2 class="intro__descr intro-descr">
+										<span class="intro-descr__label"> Получите права уже этой осенью!</span>
+									</h2>
 								</div>
-								<div class="grid__col grid__col--xl-6 grid__col--center">
+								<div class="grid__col grid__col--xl-5 grid__col--center">
 									<div class="intro__action intro-action">
 										<span class="intro-action__text">Как проходят занятия в условиях карантина?</span>
 										<a class="intro-action__link" href="#!">Подробнее</a>
@@ -257,7 +260,7 @@
 					<div class="calculator__descr">* организация экзамена в ГИБДД и свидетельство об окончании.</div>
 				</div>
 			</section>
-			<section class="info">
+			<section class="info" id="info">
 				<div class="container">
 					<ul class="tabs">
 						<li class="tabs__tab is-active" data-tab-target="0-info">
@@ -473,7 +476,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="group">
+			<section class="group" id="group">
 				<div class="container">
 					<h2 class="title">
 						<span class="title__label">Идет набор в учебные группы автошколы</span>
@@ -836,7 +839,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="contacts">
+			<section class="contacts" id="contacts">
 				<div class="container">
 					<h2 class="title">
 						<span class="title__label">Контакты</span>
