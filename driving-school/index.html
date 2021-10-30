@@ -50,7 +50,7 @@
 		<main class="index" role="main">
 			<section class="intro">
 				<div class="intro__video video">
-					<video class="video__item" loop autoplay muted playsinline poster="poster.jpg">
+					<video class="video__item" loop autoplay muted playsinline>
 						<source src="assets/video-bg/video.mp4" type="video/mp4">
 					</video>
 				</div>
@@ -80,7 +80,9 @@
 										<span class="intro-title__num">1</span>
 										<span class="intro-title__descr">
 											<span class="intro-title__thin">- e</span>
-											<span class="intro-title__main">МЕСТО В РЕЙТИНГЕ ГИБДД</span>
+											<span class="intro-title__main">МЕСТО
+												<br>В РЕЙТИНГЕ ГИБДД
+											</span>
 											<span class="intro-title__subtitle">по числу сдавших на права</span>
 										</span>
 									</h1>
@@ -272,9 +274,6 @@
 						<li class="tabs__tab" data-tab-target="2-info">
 							<span class="tabs__label"> Организация экзамена в ГИБДД</span>
 						</li>
-						<li class="tabs__tab" data-tab-target="3-info">
-							<span class="tabs__label"> Сотрудничество</span>
-						</li>
 					</ul>
 					<div class="tabs-content">
 						<div class="tabs-content__wrapper is-active" data-tab="0-info" data-tab-group="info">
@@ -376,55 +375,6 @@
 							</div>
 						</div>
 						<div class="tabs-content__wrapper" data-tab="2-info" data-tab-group="info">
-							<div class="tabs-content__bg">
-								<div class="tabs-content__picture"><img class="tabs-content__image" src="assets/images/info-bg.jpg" alt="info-bg"></div>
-							</div>
-							<div class="info-card">
-								<div class="info-card__item info-card__item--practical">
-									<ul class="info-card__practical info-card-list info-card-list--practical">
-										<li class="info-card-list__item">
-											<h3 class="info-card-list__title">
-												<span class="info-card-list__label">Практика</span>
-											</h3>
-											<p class="info-card-list__text">
-												<span class="info-card-list__num">25</span> занятий
-											</p>
-										</li>
-										<li class="info-card-list__item">
-											<p class="info-card-list__text">по <span class="info-card-list__num">2</span> часа</p>
-										</li>
-									</ul>
-								</div>
-								<div class="info-card__item info-card__item--descr">
-									<ul class="info-card__descr info-card-list info-card-list--descr">
-										<li class="info-card-list__item">
-											<span class="info-card-list__label">тренировка и практическое выполнение упражнений на автодроме </span>
-										</li>
-										<li class="info-card-list__item">
-											<span class="info-card-list__label">учебная езда по городу </span>
-										</li>
-										<li class="info-card-list__item">
-											<span class="info-card-list__label">действия водителя в нестандартных ситуациях </span>
-										</li>
-										<li class="info-card-list__item">
-											<span class="info-card-list__label">изучение особенностей экзаменационного маршрута</span>
-										</li>
-									</ul>
-								</div>
-								<div class="info-card__item info-card__item--clock">
-									<ul class="info-card__clock info-card-list info-card-list--clock">
-										<li class="info-card-list__item">
-											<span class="info-card-list__label">Практические занятия проводятся индивидуально с каждым в любой день по записи </span>
-										</li>
-										<li class="info-card-list__item info-card-list__item--bottom">
-											<p class="info-card-list__text">C <span class="info-card-list__num">10:00 </span> ДО <span class="info-card-list__num">18:00</span>
-											</p>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="tabs-content__wrapper" data-tab="3-info" data-tab-group="info">
 							<div class="tabs-content__bg">
 								<div class="tabs-content__picture"><img class="tabs-content__image" src="assets/images/info-bg.jpg" alt="info-bg"></div>
 							</div>
@@ -1196,26 +1146,29 @@
 			<div class="container container container--flex footer__container">
 				<div class="footer__decor"> <img src="assets/images/decor/4.png" alt="decor"></div>
 				<div class="footer__copyright">
-					<span class="footer__label">Автошкола «МИК-2000». © 2014 - 2020 Все права защищены</span>
+					<span class="footer__label">Автошкола «МИК-2000». © 2021 Все права защищены</span>
 				</div>
 				<ul class="footer__nav footer-nav">
 					<li class="footer-nav__item">
-						<a class="footer-nav__link" href="#!">О школе</a>
+						<a class="footer-nav__link" href="about.html">О школе</a>
 					</li>
 					<li class="footer-nav__item">
-						<a class="footer-nav__link" href="#!">Услуги</a>
+						<a class="footer-nav__link" href="#info">Услуги</a>
 					</li>
 					<li class="footer-nav__item">
-						<a class="footer-nav__link" href="#!">ПДД Онлайн</a>
+						<a class="footer-nav__link" href="#group">Набор в группы</a>
 					</li>
 					<li class="footer-nav__item">
-						<a class="footer-nav__link" href="#!">Фото</a>
+						<a class="footer-nav__link" href="pdd-online.html">Пдд онлайн</a>
 					</li>
 					<li class="footer-nav__item">
-						<a class="footer-nav__link" href="#!">Документы</a>
+						<a class="footer-nav__link" href="gallery.html">Фото</a>
+					</li>
+					<li class="footer-nav__item">
+						<a class="footer-nav__link" href="#contacts">Контакты</a>
 					</li>
 				</ul>
-				<a class="footer__link" href="#!">
+				<a class="footer__link" href="https://vk.com/mik2000">
 					<svg class="footer__icon"><use xlink:href="assets/images/sprite.svg#icon_vk"></use></svg>
 				</a>
 			</div>
