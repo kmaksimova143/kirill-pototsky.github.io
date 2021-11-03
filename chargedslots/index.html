@@ -55,10 +55,10 @@
 					</ul>
 				</nav>
 				<div class="header__buttons header-buttons">
-					<button class="header-buttons__button header-buttons__button--log-out">
+					<button class="header-buttons__button header-buttons__button--log-out" data-open-modal="register">
 						<svg class="header-buttons__icon"><use xlink:href="assets/images/sprite.svg#icon_log-out"></use></svg>
 					</button>
-					<button class="header-buttons__button header-buttons__button--user">
+					<button class="header-buttons__button header-buttons__button--user" data-open-modal="login">
 						<svg class="header-buttons__icon"><use xlink:href="assets/images/sprite.svg#icon_user"></use></svg>
 					</button>
 				</div>
@@ -407,8 +407,8 @@
 											<div class="products-card-slot__price">
 												<span class="products-card-slot__label">€519.00 €600.00</span>
 											</div>
-											<button class="products-card-slot__add">
-												<span class="products-card-slot__label">add to card</span>
+											<button class="button products-card-slot__button" data-open-modal="login">
+												<span class="button__label">add to card</span>
 											</button>
 										</li>
 										<li class="products-card-slots__item products-card-slot">
@@ -422,8 +422,8 @@
 											<div class="products-card-slot__price">
 												<span class="products-card-slot__label">€659.00 €910.00</span>
 											</div>
-											<button class="products-card-slot__add">
-												<span class="products-card-slot__label">add to card</span>
+											<button class="button products-card-slot__button" data-open-modal="login">
+												<span class="button__label">add to card</span>
 											</button>
 										</li>
 										<li class="products-card-slots__item products-card-slot">
@@ -437,8 +437,8 @@
 											<div class="products-card-slot__price">
 												<span class="products-card-slot__label">€479.00 €559.00</span>
 											</div>
-											<button class="products-card-slot__add">
-												<span class="products-card-slot__label">add to card</span>
+											<button class="button products-card-slot__button" data-open-modal="login">
+												<span class="button__label">add to card</span>
 											</button>
 										</li>
 									</ul>
@@ -459,8 +459,8 @@
 											<div class="products-card-slot__price">
 												<span class="products-card-slot__label">€777.00 €1120.00</span>
 											</div>
-											<button class="products-card-slot__add">
-												<span class="products-card-slot__label">add to card</span>
+											<button class="button products-card-slot__button" data-open-modal="login">
+												<span class="button__label">add to card</span>
 											</button>
 										</li>
 										<li class="products-card-slots__item products-card-slot">
@@ -474,8 +474,8 @@
 											<div class="products-card-slot__price">
 												<span class="products-card-slot__label">€899.00 €1320.00</span>
 											</div>
-											<button class="products-card-slot__add">
-												<span class="products-card-slot__label">add to card</span>
+											<button class="button products-card-slot__button" data-open-modal="login">
+												<span class="button__label">add to card</span>
 											</button>
 										</li>
 										<li class="products-card-slots__item products-card-slot">
@@ -489,8 +489,8 @@
 											<div class="products-card-slot__price">
 												<span class="products-card-slot__label">€9799.00 €9999.00</span>
 											</div>
-											<button class="products-card-slot__add">
-												<span class="products-card-slot__label">add to card</span>
+											<button class="button products-card-slot__button" data-open-modal="login">
+												<span class="button__label">add to card</span>
 											</button>
 										</li>
 									</ul>
@@ -512,8 +512,8 @@
 											<div class="products-card-slot__price">
 												<span class="products-card-slot__label">€20.000.00 €24.000.00</span>
 											</div>
-											<button class="products-card-slot__add">
-												<span class="products-card-slot__label">add to card</span>
+											<button class="button products-card-slot__button" data-open-modal="login">
+												<span class="button__label">add to card</span>
 											</button>
 										</li>
 										<li class="products-card-slots__item products-card-slot">
@@ -528,8 +528,8 @@
 											<div class="products-card-slot__price">
 												<span class="products-card-slot__label">€17.000.00 €20.000.00</span>
 											</div>
-											<button class="products-card-slot__add">
-												<span class="products-card-slot__label">add to card</span>
+											<button class="button products-card-slot__button" data-open-modal="login">
+												<span class="button__label">add to card</span>
 											</button>
 										</li>
 										<li class="products-card-slots__item products-card-slot">
@@ -543,8 +543,8 @@
 											<div class="products-card-slot__price">
 												<span class="products-card-slot__label">€29.999.00 €39.000.00</span>
 											</div>
-											<button class="products-card-slot__add">
-												<span class="products-card-slot__label">add to card</span>
+											<button class="button products-card-slot__button" data-open-modal="login">
+												<span class="button__label">add to card</span>
 											</button>
 										</li>
 									</ul>
@@ -691,6 +691,58 @@
 				<span class="footer-copyright__label">© 2021 Chargedslots.com | All rights reserved</span>
 			</div>
 		</footer>
+		<div class="modal" data-modal="register">
+			<div class="modal__header">
+				<span class="modal__label">Register</span>
+				<button class="modal__close"></button>
+			</div>
+			<form class="modal__form modal-form">
+				<div class="modal-form__wrap">
+					<input class="modal-form__input" type="text" placeholder="Your name">
+				</div>
+				<div class="modal-form__wrap">
+					<input class="modal-form__input" type="text" placeholder="e-mail">
+				</div>
+				<div class="modal-form__wrap">
+					<input class="modal-form__input" type="text" placeholder="password">
+				</div>
+				<div class="modal-form__wrap">
+					<input class="modal-form__input" type="text" placeholder="confirm password">
+				</div>
+				<button class="button">
+					<span class="button__label">Register</span>
+				</button>
+				<label class="modal-form__accept">
+					<input class="modal-form__checkbox" type="checkbox">
+					<span class="modal-form__label">I Accept to the Terms & Conditions</span>
+				</label>
+			</form>
+		</div>
+		<div class="modal" data-modal="login">
+			<div class="modal__header">
+				<span class="modal__label">Log in</span>
+				<button class="modal__close"></button>
+			</div>
+			<form class="modal__form modal-form">
+				<div class="modal-form__wrap">
+					<input class="modal-form__input" type="text" placeholder="Your name">
+				</div>
+				<div class="modal-form__wrap">
+					<input class="modal-form__input" type="text" placeholder="password">
+				</div>
+				<button class="button">
+					<span class="button__label">Register</span>
+				</button>
+				<label class="modal-form__accept">
+					<input class="modal-form__checkbox" type="checkbox">
+					<span class="modal-form__label">I Accept to the Terms & Conditions</span>
+				</label>
+				<div class="modal-form__warning">
+					<span class="modal-form__label">Don't have an account?</span>
+					<a class="modal-form__label modal-form__link" href="index.html">Register Now</a>
+				</div>
+			</form>
+		</div>
 
 		<script src="assets/scripts/app.min.js"></script>
 	</body>
