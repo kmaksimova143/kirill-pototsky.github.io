@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="Best star fix" />
+    <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="Lucky star init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +66,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636006772738</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lucky star init">
+      <created>1636008820431</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636008820432</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lucky star init">
+      <created>1636008831161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636008831161</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +103,7 @@
     <MESSAGE value="Fix side-bar" />
     <MESSAGE value="Added modals" />
     <MESSAGE value="Best star fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Best star fix" />
+    <MESSAGE value="Lucky star init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lucky star init" />
   </component>
 </project>
