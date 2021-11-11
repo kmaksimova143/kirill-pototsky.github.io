@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="998763ef-d193-4c7d-8422-9bd546c8425e" name="Default Changelist" comment="Lucky star update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lucky-star/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/lucky-star/about-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lucky-star/assets/styles/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/lucky-star/assets/styles/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lucky-star/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/lucky-star/contacts-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lucky-star/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lucky-star/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lucky-star/play-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/lucky-star/play-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/assets/fonts/Montserrat-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/assets/images/intro-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/assets/images/intro-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/assets/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/assets/images/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/assets/images/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/assets/scripts/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/assets/scripts/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/assets/styles/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/assets/styles/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/best-star/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best-star/main.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +50,7 @@
       <workItem from="1635948555084" duration="1825000" />
       <workItem from="1636000910184" duration="16000" />
       <workItem from="1636020536806" duration="1367000" />
+      <workItem from="1636634888415" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="Init chargedslots">
       <created>1635948639587</created>
@@ -93,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636020707499</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lucky star update">
+      <created>1636634949094</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636634949094</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
