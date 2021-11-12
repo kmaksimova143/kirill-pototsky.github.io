@@ -17,10 +17,6 @@
 			<div class="container container--flex header__container">
 				<a class="header__logo header__order--second logo" href="index.html"><img class="logo__image" src="assets/images/logo.svg" alt="logo"></a>
 				<div class="navigation">
-					<div class="navigation__burger burger">
-						<span class="burger__line burger__line--top"></span>
-						<span class="burger__line burger__line--bottom"></span>
-					</div>
 					<ul class="navigation__list navigation-list">
 						<li class="navigation-list__item">
 							<a class="navigation-list__link" href="index.html">
@@ -44,36 +40,17 @@
 						</li>
 					</ul>
 				</div>
-			</div>
-			<div class="container container--flex header__container">
-				<ul class="fheader__social social-list social-list--links">
-					<li class="social-list__item">
-						<a class="social-list__link" href="#!">
-							<svg class="social-list__icon social-list__icon--fb"><use xlink:href="assets/images/sprite.svg#icon_fb"></use></svg>
-						</a>
-					</li>
-					<li class="social-list__item">
-						<a class="social-list__link" href="#!">
-							<svg class="social-list__icon social-list__icon--google"><use xlink:href="assets/images/sprite.svg#icon_google"></use></svg>
-						</a>
-					</li>
-					<li class="social-list__item">
-						<a class="social-list__link" href="#!">
-							<svg class="social-list__icon social-list__icon--apple"><use xlink:href="assets/images/sprite.svg#icon_apple"></use></svg>
-						</a>
-					</li>
-					<li class="social-list__item">
-						<a class="social-list__link" href="#!">
-							<svg class="social-list__icon social-list__icon--instagram"><use xlink:href="assets/images/sprite.svg#icon_instagram"></use></svg>
-						</a>
-					</li>
-				</ul>
 				<div class="header__buttons header__order--third">
-					<button class="button header__button" data-open-modal="login">
-						<span class="button__label"> Login</span>
+					<button class="button button button--icon header__button" data-open-modal="login">
+						<svg class="button__icon"><use xlink:href="assets/images/sprite.svg#icon_user"></use></svg>
 					</button>
-					<button class="button header__button" data-open-modal="register">
-						<span class="button__label"> Sign up</span>
+					<button class="button button button--icon header__button" data-open-modal="register">
+						<svg class="button__icon"><use xlink:href="assets/images/sprite.svg#icon_log-out"></use></svg>
+					</button>
+					<button class="burger header__button">
+						<span class="burger__line burger__line--top"></span>
+						<span class="burger__line burger__line--mid"></span>
+						<span class="burger__line burger__line--bottom"></span>
 					</button>
 				</div>
 			</div>
@@ -90,7 +67,7 @@
 			<section class="contacts">
 				<div class="container">
 					<div class="grid">
-						<div class="grid__col grid__col--xl-5 grid__col--md-12">
+						<div class="grid__col grid__col--xl-12">
 							<ul class="contacts__list contacts-list">
 								<li class="contacts-list__item">
 									<svg class="contacts-list__icon"><use xlink:href="assets/images/sprite.svg#icon_map"></use></svg>
@@ -106,7 +83,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="grid__col grid__col--xl-7 grid__col--md-12">
+						<div class="grid__col grid__col--xl-12">
 							<div class="contacts__map">
 								<iframe class="contacts__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.05005727423!2d5.472873815767462!3d51.4388745796239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6d904c30b93cd%3A0x459ad12e15999bd0!2zRW1tYXNpbmdlbCAzMywgNTYxMSBBWiBFaW5kaG92ZW4sINCd0LjQtNC10YDQu9Cw0L3QtNGL!5e0!3m2!1sru!2sru!4v1629453084796!5m2!1sru!2sru"></iframe>
 							</div>
@@ -140,55 +117,55 @@
 						<spana class="age__label">18+</spana>
 					</div>
 				</div>
-				<div class="footer__wrap">
-					<ul class="footer__social social-list social-list--os">
-						<li class="social-list__item">
-							<a class="social-list__link" href="#!">
-								<svg class="social-list__icon social-list__icon--android"><use xlink:href="assets/images/sprite.svg#icon_android"></use></svg>
-							</a>
-						</li>
-						<li class="social-list__item">
-							<a class="social-list__link" href="#!">
-								<svg class="social-list__icon social-list__icon--ios"><use xlink:href="assets/images/sprite.svg#icon_ios"></use></svg>
-							</a>
-						</li>
-						<li class="social-list__item">
-							<a class="social-list__link" href="#!">
-								<svg class="social-list__icon social-list__icon--linux"><use xlink:href="assets/images/sprite.svg#icon_linux"></use></svg>
-							</a>
-						</li>
-						<li class="social-list__item">
-							<a class="social-list__link" href="#!">
-								<svg class="social-list__icon social-list__icon--windows"><use xlink:href="assets/images/sprite.svg#icon_windows"></use></svg>
-							</a>
-						</li>
-					</ul>
-					<ul class="footer__social social-list social-list--links">
-						<li class="social-list__item">
-							<a class="social-list__link" href="#!">
-								<svg class="social-list__icon social-list__icon--fb"><use xlink:href="assets/images/sprite.svg#icon_fb"></use></svg>
-							</a>
-						</li>
-						<li class="social-list__item">
-							<a class="social-list__link" href="#!">
-								<svg class="social-list__icon social-list__icon--google"><use xlink:href="assets/images/sprite.svg#icon_google"></use></svg>
-							</a>
-						</li>
-						<li class="social-list__item">
-							<a class="social-list__link" href="#!">
-								<svg class="social-list__icon social-list__icon--apple"><use xlink:href="assets/images/sprite.svg#icon_apple"></use></svg>
-							</a>
-						</li>
-						<li class="social-list__item">
-							<a class="social-list__link" href="#!">
-								<svg class="social-list__icon social-list__icon--instagram"><use xlink:href="assets/images/sprite.svg#icon_instagram"></use></svg>
-							</a>
-						</li>
-					</ul>
-				</div>
 			</div>
 			<div class="footer__copyright copyright">
 				<div class="container">
+					<div class="copyright__wrap">
+						<ul class="footer__social social-list social-list--os">
+							<li class="social-list__item">
+								<a class="social-list__link" href="#!">
+									<svg class="social-list__icon social-list__icon--android"><use xlink:href="assets/images/sprite.svg#icon_android"></use></svg>
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a class="social-list__link" href="#!">
+									<svg class="social-list__icon social-list__icon--ios"><use xlink:href="assets/images/sprite.svg#icon_ios"></use></svg>
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a class="social-list__link" href="#!">
+									<svg class="social-list__icon social-list__icon--linux"><use xlink:href="assets/images/sprite.svg#icon_linux"></use></svg>
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a class="social-list__link" href="#!">
+									<svg class="social-list__icon social-list__icon--windows"><use xlink:href="assets/images/sprite.svg#icon_windows"></use></svg>
+								</a>
+							</li>
+						</ul>
+						<ul class="footer__social social-list social-list--links">
+							<li class="social-list__item">
+								<a class="social-list__link" href="#!">
+									<svg class="social-list__icon social-list__icon--fb"><use xlink:href="assets/images/sprite.svg#icon_fb"></use></svg>
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a class="social-list__link" href="#!">
+									<svg class="social-list__icon social-list__icon--google"><use xlink:href="assets/images/sprite.svg#icon_google"></use></svg>
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a class="social-list__link" href="#!">
+									<svg class="social-list__icon social-list__icon--apple"><use xlink:href="assets/images/sprite.svg#icon_apple"></use></svg>
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a class="social-list__link" href="#!">
+									<svg class="social-list__icon social-list__icon--instagram"><use xlink:href="assets/images/sprite.svg#icon_instagram"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
 					<div class="copyright__wrap">
 						<p class="copyright__text">
 							<span class="copyright__label">All Rights Reserved site.com © 2021</span>
